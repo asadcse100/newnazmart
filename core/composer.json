@@ -1,4 +1,10 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Sharifur/paymentgateway.git"
+        }
+    ],
     "name": "laravel/laravel",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
@@ -13,7 +19,7 @@
         "automattic/woocommerce": "^3.1",
         "barryvdh/laravel-dompdf": "^2.0",
         "doctrine/dbal": "^3.7",
-        "fruitcake/php-cors": "^1.2",
+        "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.2",
         "intervention/image": "^2.7",
         "laravel/framework": "^10.10",

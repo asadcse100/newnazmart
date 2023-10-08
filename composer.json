@@ -1,0 +1,9 @@
+{
+    "require": {
+        "bumbummen99/shoppingcart": "^4.2",
+        "xgenious/xgapiclient": "^1.5"
+    },
+    "require-dev": {
+        "kkomelin/laravel-translatable-string-exporter": "^1.21"
+    }
+}

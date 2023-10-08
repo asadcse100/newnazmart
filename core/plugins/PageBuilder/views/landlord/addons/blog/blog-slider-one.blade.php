@@ -32,10 +32,10 @@
                                 </div>
                                 <div class="single-blog-contents mt-4">
                                     <h2 class="single-blog-contents-title">
-                                        <a href="{{route('landlord.frontend.blog.single',$blog['slug'])}}"> {{$blog->title}} </a>
+                                        <a href="#"> {{$blog->title}} </a>
                                     </h2>
                                     <div class="single-blog-contents-bottom mt-4">
-                                        <a href="{{route('landlord.frontend.blog.single',$blog['slug'])}}" class="reading-btn"> {{__('Keep Reading')}} <i class="las la-arrow-right"></i> </a>
+                                        <a href="#" class="reading-btn"> {{__('Keep Reading')}} <i class="las la-arrow-right"></i> </a>
                                         <span class="min-reading"> {{$blog->created_at->format('d M Y')}} </span>
                                     </div>
                                 </div>

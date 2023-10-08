@@ -70,7 +70,7 @@
 
         function LoadMore(posts, category, order, order_by) {
             $.ajax({
-                url: '{{route('landlord.frontend.blog.load_more.ajax')}}',
+                url: '',
                 type: "get",
                 data: {
                     'posts': posts,
